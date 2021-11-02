@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <h1><center>Railway Ticket Booking</center></h1>
+  </head>
+  <style>
+    body {
+        background-image: url('india.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+  }
+    table {
+        background-color: black;
+        color: white;
+    }
+  </style>
+  <body>
+    <form action="submit.html">
+      <center>
+       <table border="5px black">
+         <tr><th align="center">Welcome to Indain Railways</th></tr>
+         <tr><th align="left">Station from: </th><td><input type ="text" name = "Station from" required></td></tr><br>
+         <br>
+         <tr><th align="left">To: </th><td><input type = "text" name = "To" required></td></tr><br>
+         <br>
+         <tr><th align="left">Date of journey: </th><td><input type = "date" placeholder = "dd/mm/yyyy" name="Date of journey" required></td></tr><br>
+         <br>
+         <tr><th align="left">No of seats/Berths: </th><td><input type = "text" name ="No of seats" required></td></tr><br>
+         <br>
+         <tr><th align="left">Boarding at: </th><td><input type = "text" name ="Boarding at" required></td></tr><br>
+       </table>
+        <button type="submit">submit</button>
+      </center>
+    </form>
+  </body>
+</html>

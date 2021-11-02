@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1 style="text-align: center; color: white;">
+      <strong>Create your account</strong><br>
+    </h1>
+    <style>
+      .jail input {
+        border: 5px solid rgb(8, 8, 26);
+        border-radius: 8px;
+        width: 30%;
+        height: 40px;
+        color:  blue;
+        text-align: center;
+        font-size: 25px;
+      } 
+      select {
+        border: 5px solid rgb(8, 8, 26);
+        border-radius: 8px;
+        width: 31%;
+        height: 50px;
+        text-align: center;
+      }
+      .jail {
+        color: white;
+      }
+      body {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4)),url('pic.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      a {
+        width: 10%;
+        height: 40px;
+      }
+      .dhoni {
+        color: white;
+        width: 30%;
+        height: 40%;
+        float: right;
+        margin-top: -20%;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="file:///home/mohamedriyas/technical/register.html">
+      <input type="button" value="Basic Details">
+    </a>
+    <a href="file:///home/mohamedriyas/technical/personal.html">
+      <input type="button" value="Personal Details">
+    </a>
+    <div class="jail">
+      <form action="personal.html">
+      </button><br>
+      <br>
+      <input type="text" name="username" placeholder="Username" required><br>
+      <br>
+      <input type="password" name="password" placeholder="Password" required><br>
+      <br>
+      <input type="password" name="confirm password" placeholder="confirm password" required><br>
+      <br>
+      <select id="Languages" name="Languages" required>
+        <option value="z">Preferred languages</option>
+        <option value="a">தமிழ்</option>
+        <option value="b">English</option>
+        <option value="c">Hindi</option>
+      </select><br>
+      <br>
+      <select name="questions" id="questions" required><br>
+        <option value="9">Security Questions</option>
+        <option value="1">What is the name of your dog?</option>
+        <option value="2">What is your favourite food?</option>
+        <option value="3">What is the color of your house? </option>
+        <option value="4">what is your favourite actor?</option>
+      </select><br>
+      <br>
+      <input type="text" name="Security answers" placeholder="Security answers" required><br>
+      <br>
+      <button type="submit">
+        <b>Continue</b>
+      </button>
+      <button type="reset">
+        <b>Cancel</b>
+      </button>
+      <div class="dhoni">
+        <h1>
+          Indian Railways
+        </h1>
+        <h3>
+          Safety | Security | Punctuality
+        </h3>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ticket Booking</title>
+        <right>
+            <h1 style="color: white;">Indian Railways Ticket Booking</h1>
+        </right>
+        <style>
+            .train {
+                background-color: burlywood;
+                width: 45%;
+                height: 50%;
+                border: 5px solid black;
+                margin-top: 10%;  
+                color: black;      
+            }
+            body {
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4)),url('pic.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+            ul {
+                list-style-type: none;
+                overflow: hidden;
+                padding: 25px;
+                margin: 25x;
+                width: -50%;
+                position: fixed;
+                top: 0%;
+                right: 0%;  
+            }
+            li a:hover {
+                background-color: orange;
+            }
+            li {
+                float: right;
+            }
+            li a {
+                background-color: transparent;
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+            }
+            .india {
+                color: white;
+                width: 30%;
+                height: 40%;
+                float: right;
+                margin-top: -20%;
+            }   
+            button {
+                background-color: yellow;
+                border-radius: 10px;
+                border: 2px solid black;
+                width: 100px;
+                height: 50px;
+                margin-left: 45%;
+            }
+            button:hover {
+                background-color: aliceblue;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <a href="file:///home/mohamedriyas/technical/login.html">
+                    <b>Login</b>
+                </a>
+            </li>
+            <li>
+                <a href="file:///home/mohamedriyas/technical/register.html">
+                    <b>Register</b>
+                </a>
+            </li>
+        </ul>
+            <div class="train">
+                    <h2 style="text-align:center">Book ticket</h2>
+                <br>
+            <form> 
+                <table>
+                    <tr>
+                        <td><label for="Station from">Station from:</label></td>
+                        <td><input type="text" name="Station from" required></td><br>
+                        <td><label for="Station to">Station to:</label></td>
+                        <td><input type="text" name="Station to" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Date of Journey</label></td>
+                        <td><input type="date" name="Date of Journey" min="2021-10-27" max="2021-11-30"></td>  
+                        <td><label for="classes">Choose Class</label></td>
+                        <td>   
+                            <select name="classes" id="classes">
+                                <option value="a">All Classes</option>
+                                <option value="b">Anubhuti Class (EA)</option>
+                                <option value="c">AC First Class (1A)</option>
+                                <option value="d">Exec. Chair Car (EC)</option>
+                                <option value="e">AC 2 Tier (2A)</option>
+                                <option value="f">First Class (FC)</option>
+                                <option value="g">AC 3 Tier (3A)</option>
+                                <option value="h">AC 3 Economy (3E)</option>
+                                <option value="i">AC Chair car (CC)</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="boarding">Boarding at:</label></td>
+                        <td><input type="text" name="boarding" required></td>
+                    </tr>
+                </table><br>
+                <label for="for disabled person">Divyaang Concession</label>
+                <input type="checkbox" name="for disabled person">
+                <label for="date Flexible">Flexible with date</label>
+                <input type="checkbox" name="date Flexible">
+                <label for="Berth availability">Train with available berth</label>
+                <input type="checkbox" name="Berth availability"><br>
+                <br>        
+                <label for="Railway pass">Railway Pass Concession</label>
+                <input type="checkbox" name="Railway pass"><br>
+                <br> 
+                <button type="submit"><b>Search</b></button>
+                
+            </form> 
+            </div>
+            <div class="india">
+                <h1>Indian Railways</h1>
+                <h3> Safety | Security | Punctuality </h3>
+            </div>
+    </body>
+</html>

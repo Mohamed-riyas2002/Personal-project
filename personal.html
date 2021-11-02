@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 style="text-align: center; color: white;">
+            <strong>Create your account</strong>
+        </h1>
+        <style>
+            .virat input {
+                width: 30%;
+                border: 3px solid black;
+                height: 40px;
+                border-radius: 8px;
+                text-align: center;
+            }
+            body {
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4)),url('pic.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                color: white;
+            }
+            select {
+                border: 3px solid black;
+                width: 30%;
+                height: 47px;
+                border-radius: 8px;
+            }
+            .railway {
+                color: white;
+                width: 30%;
+                height: 40%;
+                float: right;
+                margin-top: -26%;
+            }
+            .ad {
+                float: right;
+                margin-top: -22%;
+                margin-right: 250px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <a href="file:///home/mohamedriyas/technical/register.html">
+                <input type="button" value="Basic Details">
+            </a>
+            <a href="file:///home/mohamedriyas/technical/personal.html">
+                <input type="button" value="Personal Details">
+            </a>
+            <div class="virat">
+                <br>
+                <input type="text" name="fname" placeholder="Firstname" required><br>
+                <br>
+                <input type="text" name="mname" placeholder="middlename(optional)"><br>
+                <br>
+                <input type="text" name="lname" placeholder="Lastname(optional)">
+                <p>
+                    <strong>Note: Please provide exact name as per Aadhar to avail Aadhar based benefits on Indian Railways eTicketing website.</strong>
+                </p>
+                <label for="date">
+                    <h2>Date of birth:</h2>
+                </label>       
+                <input type="date" name="date"max="2003-12-31"><br>
+                <br>
+                <select name="occupation" id="occupation">
+                    <option value="z">Select occupation</option>
+                    <option value="a">Government</option>
+                    <option value="b">Public</option>
+                    <option value="c">Private</option>
+                    <option value="d">Self employed</option>
+                    <option value="e">professional</option>
+                </select><br>
+                <br>
+                <label for="email">
+                    <input type="text" name="email" placeholder="Email" required>
+                </label><br>
+                <br>
+                <label for="mobile number">
+                    <input type="text" name="mobile number" placeholder="Mobile number" required>
+                </label>
+            </div>
+            <label style="font-size: 30px;">
+                <strong>Gender:</strong>
+            </label>     
+            <input type="radio" name="gender" value="male">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" value="female">
+            <label for="gender">Female</label>
+        </form>
+        <h1 class="railway">
+            Indian Railways
+        </h1>
+        <h3 class="ad">
+           Safety | Security | Punctuality 
+        </h3>
+    </body>
+</html>
